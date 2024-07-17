@@ -140,4 +140,5 @@ def retiro(page: ft.Page):
 def salir(page: ft.Page):
     page.window.close()
     
-ft.app(target=main)
+#ft.app(target=main)
+ft.app(target=main,view=ft.WEB_BROWSER)
